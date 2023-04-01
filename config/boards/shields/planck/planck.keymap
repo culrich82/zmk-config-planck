@@ -41,7 +41,7 @@
             bindings = <
                 &kp ESC   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U   &kp I   &kp MINUS   &kp PLUS   &kp BACKSPACE
                 &kp TAB     &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp NUBS   &kp LEFT_BRACKET   &kp RIGHT_BRACKET   &kp N0
-                &kp LSHIFT     &kp Z   &lt LAYER_5 X   &lt LAYER_4 C   &lt LAYER_3 V   &mo LAYER_2   &mo LAYER_1   &kp B   &kp RALT(Q)   &kp SEMICOLON   &kp SINGLE_QUOTE   &kp N0
+                &kp LSHIFT     &kp Z   &lt LAYER_5 X   &lt LAYER_4 C   &lt LAYER_3 V   &mo LAYER_2   &mo LAYER_1   &kp B   &kp RA(Q)   &kp SEMICOLON   &kp SINGLE_QUOTE   &kp N0
                 &kp LCTRL     &kp LEFT_GUI   &kp LALT   &kp N1   &kp N2   &kp N3   &kp SPACE   &kp N5  &kp N6   &kp N7   &kp N8 &kp ENTER
             >;
 
