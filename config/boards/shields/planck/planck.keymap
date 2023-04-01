@@ -3,13 +3,13 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-#define LAYER_1 0
-#define LAYER_2   1
-#define LAYER_3   2
-#define LAYER_4 3
-#define LAYER_5  4
-#define LAYER_6  5
-#define LAYER_7  6
+#define LAYER_1 1
+#define LAYER_2   2
+#define LAYER_3   3
+#define LAYER_4 4
+#define LAYER_5  5
+#define LAYER_6  6
+#define LAYER_7  7
 / {
     keymap {
         compatible = "zmk,keymap";
