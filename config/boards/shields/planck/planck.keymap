@@ -1,7 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-
+#include <dt-bindings/zmk/outputs.h>
 
 #define LAYER_1 1
 #define LAYER_2   2
@@ -84,8 +84,8 @@
 
             bindings = <
                 &kp ESC   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U   &kp I   &kp O   &kp P   &kp BACKSPACE
-                &kp TAB     &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp K   &kp L   &kp PAGE_UP   &kp N0
-                &kp LSHIFT     &kp Z   &lt LAYER_5 X   &lt LAYER_4 C   &lt LAYER_3 V   &mo LAYER_2   &mo LAYER_1   &kp B   &kp N   &kp M   &kp PAGE_DOWN   &kp N0
+                &kp TAB     &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp K   &kp L   &kp C_BRIGHTNESS_INC   &kp N0
+                &kp LSHIFT     &kp Z   &lt LAYER_5 X   &lt LAYER_4 C   &lt LAYER_3 V   &mo LAYER_2   &mo LAYER_1   &kp B   &kp N   &kp M   &kp C_BRIGHTNESS_DEC &kp N0 
                 &kp LCTRL     &kp LEFT_GUI   &kp LALT   &kp N1   &kp N2   &kp N3   &kp SPACE   &kp N5  &kp N6   &kp N7   &kp N8 &kp ENTER
             >;
 
@@ -94,9 +94,9 @@
         layer6_layer {
 
             bindings = <
-                &bootloader   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0
-                &kp N0     &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp L   &kp N0   &kp N0
-                &kp N0     &kp N0   &kp LEFT_GUI   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0
+                &bootloader   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp C_VOLUME_DOWN   &kp C_VOLUME_UP   &kp N0   &kp N0   &kp N0   &kp N0
+                &kp N0     &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp L   &kp C_BRIGHTNESS_INC   &kp N0
+                &kp N0     &kp N0   &kp LEFT_GUI   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp C_BRIGHTNESS_DEC   &kp N0
                 &kp LCTRL     &kp LEFT_GUI   &kp LALT   &kp N1   &kp N2   &kp N3   &kp SPACE   &kp N5  &kp N6   &kp N7   &kp N8 &kp ENTER
             >;
 
@@ -107,8 +107,8 @@
             bindings = <
                 &bootloader   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0
                 &kp N0     &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0
-                &kp N0     &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0
-                &bt BT_CLR     &kp LEFT_GUI   &kp LALT   &kp N1   &kp N2   &kp N3   &kp SPACE   &kp N5  &kp N6   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2
+                &kp N0     &kp N0   &kp N0   &kp N0   &kp N0   &out OUT_USB   &out OUT_BLE  &kp N0   &kp N0   &kp N0   &kp N0   &kp N0
+                &bt BT_CLR     &kp LEFT_GUI   &kp LALT   &kp N1   &kp N2   &kp N3   &reset   &kp N5  &kp N6   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2
             >;
 
         };
