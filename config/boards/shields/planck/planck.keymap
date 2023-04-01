@@ -20,7 +20,7 @@
                 &kp ESC   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U   &kp I   &kp O   &kp P   &kp BACKSPACE
                 &kp TAB     &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp K   &kp L   &kp W   &mo LAYER_7 
                 &kp LSHIFT     &kp Z   &lt LAYER_5 X   &lt LAYER_4 C   &lt LAYER_3 V   &mo LAYER_2   &mo LAYER_1   &lt LAYER_6 B   &kp N   &kp M   &kp W   &kp RSHIFT
-		&kp LCTRL     &kp LEFT_GUI   &kp LALT   &mo LAYER_2   &mo LAYER_2   &kp N3   &kp SPACE   &mo LAYER_1  &kp N5    &kp RALT   &kp RCTRL &kp ENTER 
+		&kp LCTRL     &kp LEFT_GUI   &kp LALT   &mo LAYER_2   &mo LAYER_2   &kp N3   &kp SPACE   &mo LAYER_1  &kp RALT    &kp K_CONTEXT_MENU  &kp RCTRL &kp ENTER 
             >;
 
         };
@@ -30,7 +30,7 @@
             bindings = <
                 &kp ESC   &kp N1   &kp N2   &kp N3  &kp N4   &kp N5   &kp N6   &kp N7   &kp N8   &kp N9   &kp N0   &kp N0
                 &kp TAB     &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &kp F6   &kp F7   &kp F8   &kp F9   &kp F10   &kp N0
-                &kp LSHIFT     &kp F11   &kp F12   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0
+                &kp LSHIFT     &kp F11   &kp F12   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp KP_COMMA   &kp KP_DOT   &kp KP_SLASH   &kp N0
                 &kp LCTRL     &kp LEFT_GUI   &kp LALT   &kp N1   &kp N2   &kp N3   &kp SPACE   &kp N5  &kp N6   &kp N7   &kp N8 &kp ENTER
             >;
 
@@ -39,9 +39,9 @@
         layer2_layer {
 
             bindings = <
-                &kp ESC   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U   &kp I   &kp O   &kp P   &bootloader
-                &kp TAB     &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp K   &kp L   &kp W   &bt BT_CLR
-                &kp LSHIFT     &kp Z   &lt LAYER_5 X   &lt LAYER_4 C   &lt LAYER_3 V   &mo LAYER_2   &mo LAYER_1   &kp B   &kp N   &kp M   &kp W   &bt BT_SEL 0
+                &kp ESC   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U   &kp I   &kp KP_MINUS   &kp KP_PLUS   &kp BACKSPACE
+                &kp TAB     &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp PIPE2   &kp LEFT_BRACKET   &kp RIGHT_BRACKET   &kp N0
+                &kp LSHIFT     &kp Z   &lt LAYER_5 X   &lt LAYER_4 C   &lt LAYER_3 V   &mo LAYER_2   &mo LAYER_1   &kp B   &kp AT_SIGN   &kp SEMICOLON   &kp SINGLE_QUOTE   &kp N0
                 &kp LCTRL     &kp LEFT_GUI   &kp LALT   &kp N1   &kp N2   &kp N3   &kp SPACE   &kp N5  &kp N6   &kp N7   &kp N8 &kp ENTER
             >;
 
