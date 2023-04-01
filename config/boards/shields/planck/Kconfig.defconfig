@@ -1,0 +1,5 @@
+if SHIELD_PLANCK
+
+config ZMK_KYEBOARD_NAME
+	default "planck"
+endif
