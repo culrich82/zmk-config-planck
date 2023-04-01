@@ -95,7 +95,7 @@
 
             bindings = <
                 &bootloader   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp C_VOLUME_DOWN   &kp C_VOLUME_UP   &kp N0   &kp N0   &kp N0   &kp N0
-                &kp N0     &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp L   &kp C_BRIGHTNESS_INC   &kp N0
+                &kp N0     &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp K_MUTE   &kp N0   &kp N0   &kp L   &kp C_BRIGHTNESS_INC   &kp N0
                 &kp N0     &kp N0   &kp LEFT_GUI   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp C_BRIGHTNESS_DEC   &kp N0
                 &kp LCTRL     &kp LEFT_GUI   &kp LALT   &kp N1   &kp N2   &kp N3   &kp SPACE   &kp N5  &kp N6   &kp N7   &kp N8 &kp ENTER
             >;
