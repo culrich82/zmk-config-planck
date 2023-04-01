@@ -1,5 +1,5 @@
 if SHIELD_PLANCK
 
-config ZMK_KYEBOARD_NAME
+config ZMK_KEYBOARD_NAME
 	default "planck"
 endif
