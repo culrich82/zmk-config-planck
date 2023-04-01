@@ -4,11 +4,11 @@
 
 
 #define LAYER_1 0
-##define LAYER_2   1
-##define LAYER_3   2
-#define LAYER_4 3
-##define LAYER_5  4
-##define LAYER_6  5
+#define LAYER_2   1
+#define LAYER_3   2
+#efine LAYER_4 3
+#define LAYER_5  4
+#define LAYER_6  5
 
 / {
     keymap {
