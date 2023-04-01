@@ -18,9 +18,9 @@
 
             bindings = <
                 &kp ESC   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U   &kp I   &kp O   &kp P   &kp BACKSPACE
-                &kp TAB     &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp K   &kp L   &kp W   &bootloader 
+                &kp TAB     &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp K   &kp L   &kp W   &mo LAYER_7 
                 &kp LSHIFT     &kp Z   &lt LAYER_5 X   &lt LAYER_4 C   &lt LAYER_3 V   &mo LAYER_2   &mo LAYER_1   &lt LAYER_6 B   &kp N   &kp M   &kp W   &kp RSHIFT
-		&kp LCTRL     &kp LEFT_GUI   &kp LALT  &mo LAYER_2   &mo LAYER_2           &kp SPACE      &mo LAYER_1   &mo LAYER_1   &kp RALT   &kp RCTRL   &kp ENTER   
+		&kp LCTRL     &kp LEFT_GUI   &kp LALT   &kp N5   &kp N6   &kp N7   &kp N8   &kp N9  &kp N5   &kp N6   &kp N7 
             >;
 
         };
