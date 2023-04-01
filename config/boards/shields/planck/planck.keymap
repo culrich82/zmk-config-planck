@@ -108,7 +108,7 @@
                 &bootloader   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0
                 &kp N0     &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0   &kp N0
                 &kp N0     &kp N0   &kp N0   &kp N0   &kp N0   &out OUT_USB   &out OUT_BLE  &kp N0   &kp N0   &kp N0   &kp N0   &kp N0
-                &bt BT_CLR     &kp LEFT_GUI   &kp LALT   &kp N1   &kp N2   &kp N3   &reset   &kp N5  &kp N6   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2
+                &bt BT_CLR     &kp LEFT_GUI   &kp LALT   &kp N1   &kp N2   &kp N3   &reset   &bt BT_SEL 4  &bt BT_SEL 3   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2
             >;
 
         };
