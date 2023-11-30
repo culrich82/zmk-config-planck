@@ -2,4 +2,11 @@ if SHIELD_PLANCK
 
 config ZMK_KEYBOARD_NAME
 	default "planck"
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
 endif
