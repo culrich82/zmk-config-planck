@@ -49,8 +49,8 @@
 
             bindings = <
                 &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U   &kp I   &kp MINUS   &kp PLUS  
-               &kp LEFT_SHIFT   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp RIGHT_ALT(NUBS)   &kp LEFT_BRACKET   &kp RIGHT_BRACKET  
-                 &kp Z   &lt LAYER_5 X   &lt LAYER_4 C   &lt LAYER_3 V   &mo LAYER_2   &mo LAYER_1   &kp B   &kp RIGHT_ALT(Q)   &kp SEMICOLON   &kp SINGLE_QUOTE  
+               &kp LEFT_SHIFT   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp RA(NUBS)   &kp LEFT_BRACKET   &kp RIGHT_BRACKET  
+                 &kp Z   &lt LAYER_5 X   &lt LAYER_4 C   &lt LAYER_3 V   &mo LAYER_2   &mo LAYER_1   &kp B   &kp RA(Q)   &kp SEMICOLON   &kp SINGLE_QUOTE  
                
             >;
 
